@@ -22,11 +22,12 @@ const App = () => {
   ]) 
   useEffect(() => {
     console.log("array vuoto");
+
   }, [])
 
-  useEffect(() => {
-    console.log("senza array");
-  })
+  // useEffect(() => {
+  //   console.log("senza array");
+  // })
 
   useEffect(() => {
     setPrice(items.reduce((acc, {price, qty})=> acc + price * qty, 0));
