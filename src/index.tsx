@@ -4,14 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import { Characters } from './components/Characters/Characters';
 
-const p = <p>Ciao</p>;
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-    <App />
+    <Characters />
 );
 
 // If you want to start measuring performance in your app, pass a function
