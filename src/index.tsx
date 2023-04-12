@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Characters } from './components/Characters/Characters';
 import { Meteo } from './components/Meteo/Meteo';
+import { Wrapper } from './components/Wrapper/Wrapper';
 
 
 
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-    <Meteo />
+    <Wrapper />
 );
 
 // If you want to start measuring performance in your app, pass a function

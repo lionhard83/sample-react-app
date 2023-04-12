@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 const url = "https://rickandmortyapi.com/api/character";
 
-type Character = {
+export type Character = {
   id: number;
   name: string;
   status: "unknown" | "alive" | "dead";
